@@ -13,6 +13,7 @@ class FirstActivity : AppCompatActivity() {
 
 //        parsingSerializable()
         parsingParcelable()
+
     }
 
     fun parsingSerializable(){

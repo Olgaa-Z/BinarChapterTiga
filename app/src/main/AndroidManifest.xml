@@ -15,16 +15,26 @@
         android:theme="@style/Theme.ChapterTiga"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".serializable.SecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".serializable.FirstActivity"
+            android:name=".bottomnav.BerandaGojek"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragment.HalamanUtama"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".serializable.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".serializable.FirstActivity"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".Home"
@@ -40,9 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".ActivityA"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".IntentActivity"
             android:exported="true" />
